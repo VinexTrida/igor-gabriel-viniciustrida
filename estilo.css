@@ -1,0 +1,397 @@
+body{
+	background-color: #727272;
+}
+
+.menu ul{
+	padding: 0%;
+	margin: 0%;
+	background-color: #727272;
+	list-style: none;
+	width: 340px;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a{
+	padding: 2px 10px;
+	display: inline-block;
+	background-color: #4F4F4F;
+	color: black;
+	text-decoration: none;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;  
+	border-top: 3px solid #727272;
+	border-right: 3px solid #727272;
+}
+
+.menu ul li a:hover{
+	padding: 1px 9.5px;	
+	background-color: #4F4F4F;
+	color: black;
+	border-top: 3px solid black;
+	border-right: 3px solid black; 
+	border-bottom: 3px solid #4F4F4F;
+	border-left: 3px solid #727272;
+}
+
+.logo {
+	text-align: center;
+}
+
+.promocoes {
+	display: inline;
+							
+}
+
+.mineLogo{
+	border-radius: 40px;
+	background-color: #4F4F4F;
+	width: 300px;
+	box-shadow:0px 0px 15px black;
+	padding: 20px;
+
+}
+
+.imagemInvi{
+	width: 30px;
+}
+
+.mineLogo:hover{
+	opacity: 0.6;
+	transition: 1s;
+}
+
+.redLogo{
+	border-radius: 40px;
+	background-color: #4F4F4F;
+	width: 300px;
+	box-shadow:0px 0px 15px black;
+	padding: 20px;
+}
+
+.redLogo:hover{
+	opacity: 0.6;
+	transition: 1s;
+}
+
+.promo{
+	color: black;
+	text-align: center;
+	text-shadow: darkgray 0.1em 0.1em 0.2em;
+}
+
+.jogos{
+	background-color: #4F4F4F;
+	border-radius: 40px;
+}
+
+.promotions{
+	padding-bottom: 2%;
+}
+
+
+.figProdutos{
+	width:30%;
+	float:left;
+	background-color:gray;
+	padding:20px;
+	margin: 20px;
+	box-shadow:0px 0px 15px black;
+	border-radius: 40px;
+}
+
+.figProdutos2{
+	width:30%;
+	float:left;
+	background-color:gray;
+	padding:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 16.5%;
+	box-shadow:0px 0px 15px black;
+	border-radius: 40px;
+}
+
+
+
+main{
+	display: block;
+	box-shadow:0px 0px 15px black;
+	width: 95%;
+	display: inline;
+	margin:0 auto;
+}
+
+.produtosIMG img{
+	width: 95%;
+	opacity:0.6;
+	margin:0 auto;
+	transition:1s;
+	border-radius: 40px;
+}
+
+.produtosIMG img:hover{
+	opacity:1;
+}
+
+.figHome{
+	width:30%;
+	float:left;
+	background-color: #727272;
+	padding:10px;
+	margin:10px;
+	border-left: solid #4F4F4F;
+	border-bottom: solid #4F4F4F;
+	border-right:  solid #4F4F4F;
+	border-top: dotted black;
+}
+
+.propaganda{
+	text-align: center;
+	color: #72EAFF;
+	margin-right: 30%;
+	margin-left: 30%;
+	font-size: 17px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.hr{
+	margin-top: 15px;
+	border-color:#4F4F4F;
+}
+
+.tipro{
+	text-align: center;
+	text-shadow: darkgray 0.1em 0.1em 0.2em;
+}
+
+/* Aonde tava antes do Vini */
+
+.slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
+.slide-controller:nth-child(2):checked ~ .slide-show .slides-list{--selected-item: 1;}
+.slide-controller:nth-child(3):checked ~ .slide-show .slides-list{--selected-item: 2;}	
+
+.slide-show{
+  overflow: hidden;
+  display: block;
+  height: 700px;
+  width: 1200px;
+  margin-top: 20px;
+  position: relative;
+  border-radius: 40px;
+}
+
+.slides-list{
+  --selected-item: 0;
+  --total-items: 3;
+  list-style-type: none;
+  margin: 0px 0;
+  padding: 0;
+  position: relative;
+  left: calc(var(--selected-item) * -100%);
+  width: calc(var(--total-items) * 100%);
+  transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.slide{
+  width: 30%;
+}
+
+.compraText {
+	margin-top: 20px;
+}
+
+.compreNos {
+	margin-top: 50px;
+	text-align: center;
+	border:solid black;
+	margin-left: 30%;
+	margin-right: 30%;
+	box-shadow:0px 0px 15px black;
+	text-shadow: darkgray 0.1em 0.1em 0.2em;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+
+hr{
+	margin-right: 20px;
+	margin-left: 20px;
+	border-color: darkgray;
+}
+
+/* Vini Text */
+
+.historia{
+	margin-top: 2%;
+	width: 1000px;
+	font-size: 29px;
+	background-color: white;
+	border-radius: 40px;
+	background-color: #4f4f4f;
+	box-shadow:0px 0px 15px black; 
+}
+
+
+.logoSobreNos{
+	margin-top: 5%;
+	border-radius: 40px;
+}
+
+.historia .logoSobreNos{
+	display: inline-block;
+}
+
+.logoOriginal{
+	font-size: 21px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.logoTexto{
+	margin-left: 10%;
+	margin-top: 2%;
+	width: 400px;
+	border-radius: 40px;
+	background-color: #4f4f4f;
+	box-shadow:0px 0px 15px black; 
+}
+
+.slogan{
+	margin-top: 5%;
+	border-radius: 40px;
+	width: 400px;
+	background-color: #4f4f4f;
+	box-shadow:0px 0px 15px black;
+	text-align: center;
+}
+
+.fraseSlogan{
+	font-size: 21px;
+	padding-bottom: 15px;
+}
+
+.igor{
+	margin-right: 50px;
+	margin-top: 6%;
+	border-radius: 40px;
+	width: 400px;
+	background-color: #4f4f4f;
+	box-shadow:0px 0px 15px black;
+	padding-bottom: 10px;
+	padding-top: 10px; 
+	text-align: center;
+}
+
+.gabriel{
+	margin-right: 50px;
+	margin-top: 6%;
+	border-radius: 40px;
+	width: 400px;
+	background-color: #4f4f4f;
+	box-shadow:0px 0px 15px black;
+	padding-bottom: 10px; 
+	padding-top: 10px;
+	text-align: center;
+}
+
+.vini{
+	margin-top: 6%;
+	border-radius: 40px;
+	width: 400px;
+	background-color: #4f4f4f;
+	box-shadow:0px 0px 15px black;
+	padding-bottom: 10px; 
+	padding-top: 10px;
+	text-align: center;
+}
+
+.contatos{
+	background-color: #4f4f4f;
+	box-shadow:0px 0px 15px black;
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 300px;
+	border-radius: 40px;
+}
+
+.textoContatos{
+	font-size: 21px;
+	margin-bottom: 0.5%;
+	text-align: center;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+}
+
+.sombraSobre{
+	text-shadow: darkgray 0.1em 0.1em 0.2em;
+}
+
+.tdI{
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.tdC{
+	background-color: red;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+.td{
+	background-color: green;
+	padding: 15px;
+	border-radius: 5px;
+	width: 20px;
+
+
+}
+
+.ifc{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-spacing: 8px;
+}
+
+form{
+	background-color: lightGray;
+	margin-top: 20px;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 5px black;
+}
+
+form legend{
+	text-align: center;
+	border: dotted 2px black;
+}
+
+form fieldset{
+	margin-top: 20px;
+	text-align: left;
+}
+
+span{
+	font-weight: bold;
+}
